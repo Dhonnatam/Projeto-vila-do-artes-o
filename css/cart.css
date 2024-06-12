@@ -1,0 +1,76 @@
+/* Estilizando o contêiner do carrinho */
+#cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando os itens do carrinho */
+.carrinho-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.carrinho-item img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.carrinho-item h3 {
+    flex: 1;
+    margin: 0 16px;
+}
+
+.carrinho-item p {
+    margin: 0 16px;
+}
+
+/* Estilizando o botão de remover */
+.remover-item {
+    padding: 8px 16px;
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remover-item:hover {
+    background-color: #e53935;
+}
+
+/* Estilizando o rodapé do carrinho */
+#cart-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+
+/* Estilizando os botões de limpar carrinho e finalizar compra */
+#clear-cart, #checkout {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#clear-cart:hover, #checkout:hover {
+    background-color: #555;
+}

@@ -1,0 +1,44 @@
+#categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.categoria {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin-top: 150px;
+}
+
+.categoria img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.categoria h3 {
+    margin: 16px 0 8px;
+}
+
+.categoria p {
+    margin: 8px 0;
+}
+
+.categoria button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.categoria button:hover {
+    background-color: #555;
+}

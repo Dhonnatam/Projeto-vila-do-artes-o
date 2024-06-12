@@ -2,12 +2,11 @@
     padding: 20px;
     background-color: #f9f9f9;
     margin: 20px auto;
-    max-width: 800px;
+    display: flex;
     border-radius: 5px;
     margin-left: 65px; 
-
+    justify-content: space-evenly;
 }
-
 
 #historia h2 {
     font-size: 24px;
@@ -21,4 +20,11 @@
     color: #666;
     text-align: justify;
 }
-
+.texto{
+    text-align: start;
+    max-width: 40%
+;
+}
+.foto-hitoria{
+    
+}
